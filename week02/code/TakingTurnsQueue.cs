@@ -13,7 +13,7 @@ public class TakingTurnsQueue {
     public int Length => _people.Length;
 
     /// <summary>
-    /// Add new people to the queue with a name and number of turns
+    /// Add new people to the queue with a name and number of turns ✔
     /// </summary>
     /// <param name="name">Name of the person</param>
     /// <param name="turns">Number of turns remaining</param>
@@ -27,7 +27,7 @@ public class TakingTurnsQueue {
     /// go to the back of the queue again unless the turns variable shows that they 
     /// have no more turns left.  Note that a turns value of 0 or less means the 
     /// person has an infinite number of turns.  An error message is displayed 
-    /// if the queue is empty.
+    /// if the queue is empty. ✔ (The code is already ok?)
     /// </summary>
     public void GetNextPerson() {
         if (_people.IsEmpty())
